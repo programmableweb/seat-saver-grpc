@@ -1,0 +1,22 @@
+version: '3'
+services:
+  seatsaver:
+    build: ./
+    environment:
+      MONGODB_URL: mongodb://mongo:27017/seatsaver
+    ports:
+      - "50051:50051"
+    networks:
+      - seatsaver
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - 'mongo:/data/db'
+    networks:
+      - seatsaver
+networks:
+  seatsaver:
+volumes:
+  mongo:

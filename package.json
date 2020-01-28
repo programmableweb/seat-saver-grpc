@@ -1,0 +1,40 @@
+{
+  "name": "seat-saver-grpc",
+  "version": "1.0.0",
+  "description": "A project to demonstrate implementing gRPC under Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/basic-grpc-tests.js",
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reselbob/seat-saver-grpc.git"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "Bob Reselman <reselbob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reselbob/seat-saver-grpc/issues"
+  },
+  "homepage": "https://github.com/reselbob/seat-saver-grpc#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "faker": "^4.1.0",
+    "google-protobuf": "^3.11.2",
+    "grpc": "^1.24.2",
+    "ioredis": "^4.14.1",
+    "jsonschema": "^1.2.5",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.10",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "async": "^3.1.0",
+    "chai": "^4.2.0",
+    "minimist": "^1.2.0",
+    "mocha": "^6.2.2"
+  }
+}
