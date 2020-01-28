@@ -137,7 +137,6 @@ describe('Basic Grpc Tests: ', () => {
                 expect(result).to.be.an('object');
                 expect(result.status).to.equal('SOLD');
                 expect(result.customer).to.be.an('object');
-                done()
             }
             client.BuySeat(obj, buySeatCallback);
         });
