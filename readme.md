@@ -9,7 +9,7 @@ Docker Compose installation process does this for you automatically.
 
 **Step 1:** Clone the project from this GitHub repository as follows:
 
-`https://github.com/programmableweb/seat-saver-grpc.git
+`https://github.com/programmableweb/seat-saver-grpc.git`
 
 **Step 2:** Navigate to the project directory:
 
